@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+credentials/
+*service-account*.json
+
+# Generated datasets
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/profiles.yml
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
